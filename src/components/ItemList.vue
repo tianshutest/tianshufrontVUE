@@ -137,7 +137,7 @@ export default {
         this.items = []; // 清空商品列表
       }
 
-      const url = 'http://127.0.0.1:51385/tianshu/items/getQueryItems';
+      const url = 'http://wl.tsjiaoyi.asia:51385/tianshu/items/getQueryItems';
       const params = {
         pageSize: this.pageSize,
         pageNum: this.pageNum,
